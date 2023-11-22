@@ -5,7 +5,7 @@ import numpy as np
 
 # La URL del servidor especifica el endpoint del modelo "linear_model"
 # con el nombre "linear-model" y utilizando la interfaz de predicción "predict".
-SERVER_URL = 'https://linear-model-service-tensor-yacruz.cloud.okteto.net/v1/models/linear-model:predict'
+SERVER_URL = 'https://linear-model-service-lokenmg.cloud.okteto.net/v1/models/linear-model:predict'
 
 def make_prediction(input_values):
     payload = {'instances': [[value] for value in input_values]}
